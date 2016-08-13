@@ -1,0 +1,12 @@
+ul li{list-style-type: none;}
+
+.container{width: 400px;margin: 0 auto;}
+
+.todo-box .todo-item-list{width:200px;}
+.todo-box .todo-item-list li .view{display: block;}
+.todo-box .todo-item-list li .edit{display: none;}
+.todo-box .todo-item-list li.editing .edit{display: block;}
+.todo-box .todo-item-list li.editing .view{display: none;}
+
+.todo-box .todo-item-list li .view .btn-delete{display: none;}
+.todo-box .todo-item-list li .view:hover .btn-delete{display: inline-block;}
