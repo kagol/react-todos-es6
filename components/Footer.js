@@ -5,7 +5,7 @@ class TodoFooter extends React.Component {
 		return (
 			<footer className="footer">
 				<p>Double-click to edit a todo</p>
-				<p>Created by kagol</p>
+				<p>Created by <a href="http://www.cnblogs.com/kagol">kagol</a></p>
 				<p>Part of TodoMVC</p>
 			</footer>
 		)
