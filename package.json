@@ -1,7 +1,7 @@
 {
-  "name": "redux-todos-example",
-  "version": "0.0.0",
-  "description": "Redux Todos example",
+  "name": "react todos",
+  "version": "1.0.0",
+  "description": "React Todos Demo ES6",
   "scripts": {
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
@@ -9,13 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/redux.git"
+    "url": "https://github.com/kagol/react-todos-es6"
   },
+  "author": "kagol",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reactjs/redux/issues"
+    "url": "https://github.com/kagol/react-todos-es6/issues"
   },
-  "homepage": "http://redux.js.org",
+  "homepage": "https://github.com/kagol",
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "jquery": "^3.1.0",
